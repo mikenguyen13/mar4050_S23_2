@@ -1,0 +1,140 @@
+---
+title: "Discussion Case"
+subtitle: "Interpreting Regression Models"
+author: "Mike Nguyen"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(message = F, warning = F)
+```
+
+
+# Permissible variables practice 
+
+
+The career services office in a business school on the west coast wants to identify the factors that are associated with the starting salary for its graduates.  It has access to the following variables.  Which would be permissible to include as independent variables in a regression model?
+
+a)	student id number
+b)	major (accountancy, finance, management, marketing)
+c)	whether student also had a minor (yes/no)
+d)	overall GPA
+e)	GPA in major
+f)	number of internships completed
+g)	participated in job fair (yes/no)
+h)	number of career center workshops participated in
+
+# Relationship between R-squared in Simple Regression and Correlation
+
+```{r}
+n = 1000
+x = sample(1:100, replace = T, size = n)
+y = 0.8*x # + rnorm(n, mean = 0, sd = 0.01)
+
+cor(x,y)
+summary(lm(y ~ x - 1))
+summary(lm(x ~ y - 1))
+
+library(tidyverse)
+library(faux)
+dat <- rnorm_multi(n = 100, 
+                  mu = c(0, 20, 20),
+                  sd = c(1, 5, 5),
+                  r = c(0.5, 0.5, 0.25), 
+                  varnames = c("A", "B", "C"),
+                  empirical = FALSE)
+
+attach(dat)
+cor(A,B)
+AB = summary(lm(A ~ B))
+sqrt(AB$r.squared)
+BA = summary(lm(B ~ A))
+sqrt(BA$r.squared)
+
+detach(dat)
+
+```
+
+
+# Example 1
+
+
+Customer service expense
+
+A company that develops and maintains websites for businesses wants to develop estimates of how much developer time is required to maintain customer websites.
+
+The dependent variable for the regression model is developer time per page on a customer’s site (in hundreds of hours, 00)
+
+The independent variables are
+
+ * number of years the client has been a customer of the company 
+ * whether the website includes a payment portal (1 = yes, 0 = no)
+ * company size (annual revenue in millions of dollars--$000,000) 
+
+**Hours = 6.38 - .47(customer years) + 1.14 (if payment portal) - .16 (annual revenue)**
+
+
+Generate a fictitious dataset
+
+```{r}
+n = 200
+# number of years the client has been a customer of the company
+customers_year = sample(0:15, replace = T, size = n) 
+
+# 1 = yes, 0 = no
+payment_portal = sample(c(0,1), replace = T, size = n) 
+
+# annual revenue in millions of dollars
+firm_size = sample(0:10, replace = T, size = n) 
+
+# true model
+hours = 6.38 - 0.47*customers_year + 1.14*payment_portal - 0.16*firm_size + rnorm(n)
+data = as.data.frame(cbind(hours, customers_year, payment_portal,firm_size))
+
+# rio::export(data, "discussion.xlsx")
+```
+
+Implement multiple regression
+
+```{r}
+reg = lm(hours ~ customers_year + payment_portal + firm_size, data = data)
+
+# see the result
+summary(reg)
+```
+
+# Example 2
+
+What if we cannot capture every variable that is associated with the dependent variable
+
+Generate a fictitious dataset
+
+```{r}
+n = 200
+# number of years the client has been a customer of the company
+customers_year = sample(0:15, replace = T, size = n) 
+
+# 1 = yes, 0 = no
+payment_portal = sample(c(0,1), replace = T, size = n) 
+
+# annual revenue in millions of dollars
+firm_size = sample(0:10, replace = T, size = n) 
+
+# other variables we cannot capture
+other_var = sample(0:10, replace = T, size = n) 
+
+# true model
+hours = 6.38 - 0.47*customers_year + 1.14*payment_portal - 0.16*firm_size + other_var + rnorm(n)
+data = as.data.frame(cbind(hours, customers_year, payment_portal,firm_size, other_var))
+```
+
+Implement multiple regression
+
+```{r}
+reg = lm(hours ~ customers_year + payment_portal + firm_size, data = data)
+
+# see the result
+summary(reg)
+```

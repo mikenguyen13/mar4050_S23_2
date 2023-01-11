@@ -1,0 +1,440 @@
+---
+title: 'Syllabus Spring 2023 \linebreak Marketing 4050 - Marketing Research' 
+output:
+  pdf_document: 
+    number_sections: true
+    toc: true
+  html_notebook: 
+    number_sections: true
+urlcolor: blue
+date: "`r Sys.Date()`"
+---
+
+\newpage
+
+Instructor: Mike Nguyen
+
+Office: : 507 Cornell Hall
+
+Email: [mikenguyen\@mail.missouri.edu](mailto:mikenguyen@mail.missouri.edu){.email}
+
+Class Hours: 8:00 AM - 9:15 AM (Monday, Tuesday) 01/17/2023 - 05/04/2023
+
+Classroom: CORNELL HALL 218
+
+Office Hours: by appointment
+
+# Textbooks
+
+*Basic Marketing Research*, Brown, Suter, and Churchill, 9th ed., 2018, Cengage (required)
+
+[Auto-access Trouble Shoot](https://github.com/mikenguyen13/mar4050_S22/raw/main/Autoaccess_troubleshoot.docx)
+
+<br>
+
+# **Prerequisites**
+
+Mktg 3000, junior standing, and Statistics 3500.
+
+If you don't have these prerequisites, please talk to the instructor.
+
+<br>
+
+# Objectives
+
+## Course Objectives
+
+This course will provide students with an understanding of the role of marketing research in organizations and knowledge about how marketing research is carried out. Students will learn the language of marketing research, the value of primary and secondary sources of data, and how errors in research can be reduced or avoided. The course is also designed to further students' professional development by enhancing their ability to:
+
+-   solve business problems
+
+-   effectively communicate facts and opinions
+
+-   work in groups
+
+-   manage time and tasks effectively
+
+-   make effective formal presentations
+
+<br>
+
+## Knowledge objectives
+
+The following topics must be covered in the course, and students should be able to demonstrate knowledge of key principles in each topic.
+
+-   The marketing research process
+
+-   Marketing research industry structure
+
+-   Sources of information (primary, secondary, syndicated)
+
+-   Problem definition and exploratory research
+
+-   Research design options (qualitative, causal, survey)
+
+-   Data collection methods
+
+-   Measurement (levels of measurement, types of measurement scales)
+
+-   Questionnaire design
+
+-   Sampling methods and sampling plans
+
+-   Fieldwork and data quality; data preparation and coding
+
+-   Descriptive statistical analysis (mean, median, mode; frequency distribution; cross-tabulation)
+
+-   Basic data visualization
+
+-   Correlation and regression applications
+
+-   Oral and written presentation of results
+
+<br>
+
+## Performance objectives
+
+Students will be asked to demonstrate their ability to do the following activities.
+
+Students, with the assistance of group members, will be able to conduct and complete small-scale marketing research project, including problem definition, questionnaire design, sample design, data collection, data analysis, and project oral and written report.
+
+Students will be able to calculate the following statistics in Excel, be able to interpret them, and know the proper data visualization techniques to present the results:
+
+-   mean
+
+-   percentages and frequency distribution
+
+-   cross-tabulation
+
+Students will be able to interpret correlation and regression results, including slope coefficients and model fit.
+
+<br>
+
+# Student Evaluation
+
+| Components                      | Points |
+|---------------------------------|--------|
+| Exam (2)                        | 300    |
+| Group Term Project Assignments  | 300    |
+| Attendance                      | 100    |
+| Participation (Case Discussion) | 50     |
+| Qualtrics Homework              | 50     |
+| Weekly Quiz (10)                | 200    |
+| Total                           | 1000   |
+
+Extra Credit: 3-5%
+
+| Letter Grade | Range | To  |
+|--------------|-------|-----|
+| A            | 100%  | 94% |
+| A-           | \<94% | 90% |
+| B+           | \<90% | 87% |
+| B            | \<87% | 84% |
+| B-           | \<84% | 80% |
+| C+           | \<80% | 77% |
+| C            | \<77% | 74% |
+| C-           | \<74% | 70% |
+| D+           | \<70% | 67% |
+| D            | \<67% | 64% |
+| D-           | \<64% | 61% |
+| F            | \<61% | 0%  |
+
+<br>
+
+## Attendance, Participation, and Professionalism
+
+-   This class meets in-person at the scheduled time slot. Students are expected to be present at all class sessions and to participate by asking and answering questions at multiple points during each class session. In other words, attendance is **mandatory**. Failure to do so will result in loss of class participation and attendance points. Both quality and quantity of contributions are considered in assigning the class participation grade.
+
+-   To be excused due to illness, the student must either notify the professor before class of the illness, or provide the instructor with **a doctor's note**.
+
+-   [Be on time to class]{.underline}. Important material is covered in the first few minutes of class. Students who are late to class will lose attendance points.
+
+-   Students are expected to be prepared and to read assigned discussion cases before class begins. Students are also expected to pay attention in class, and will be called upon to present their views on class material and discussion cases. Students are also expected to contribute to the class by asking questions. Both quality and quantity of contributions are considered in assigning the class participation grade**.**
+
+-   Professional behavior is expected of all students. Professionalism includes being on time, being courteous to class members and the instructor, being reliable and conscientious when working on group projects, and other aspects of behavior normally expected of students or employees.
+
+### Attendance
+
+-   Everyone is allowed to have **four absences** without questions asked. After that, each absence will cost you 50% of the attendance score unless excused by the instructor. Thus, **on your sixth absence**, all your attendance points will be gone.
+
+-   iClicker attendance will be run automatically from 9:25 AM to 9:40 AM (UTC-06:00) Central Time (US & Canada) on class days.
+
+-   For example, when you miss two classes, your attendance won't be affected. when you miss the third class, your attendance point is now only 25. When you miss the fourth class, you will receive 0 in your attendance point.
+
+-   **Attendance points are recorded by iClicker.**
+
+-   **For each correct response, you can earn 1 point extra credit.** (This can add up!!!)
+
+-   The start and end times for the class are determined by the classroom clock, not the time on students' phones.
+
+### Participation (Case Discussion)
+
+-   Participation in case discussions will be counted each time a student raises their hand and answers a question.
+
+-   To receive full credit for participation (50 points) in a semester, a student must participate at least **3 times**.
+
+-   Each missing participation will result in **a deduction of 20 points** from the total participation grade.
+
+-   For example, if a student only participates once in a semester, they will receive 10 points for participation for the semester.
+
+-   In order to receive full credit for participation, students must prepare thoughtful answers to case discussions by reading the assigned material beforehand. Responses without substance or thought will not be counted as participation. To ensure that you receive full credit for participation, it is important to come to class prepared with considered and substantive responses.
+
+<br>
+
+### IClicker Reef {.unnumbered}
+
+-   Please create an account on iClicker App in Apple or Android store with your full name on the Myzou. If you don't have a smart phone, you can do so through desktop version.
+
+-   Once you have successfully downloaded the app and signed in, search for "University of Missouri Columbia"
+
+-   Then search for "**Marketing Research 4050 "** for your course. And select the course by"**Mike Nguyen**"
+
+-   Click **"Add This Course".**
+
+-   You attendance, in class participation, and quiz will be done through the iClicker.
+
+<br>
+
+## Assignments
+
+-   Assignments are to be turned in using Canvas and are due at the time noted on Canvas.
+
+-   Late assignments are eligible for up to 50% of total points if they are turned in within 24 hours of the due date; after that, no credit will be given for late assignments. To be considered, any requests to re-grade an assignment must be made within **one week after the grade has been posted on Canvas**.
+
+Assignments consist of:
+
+-   [Weekly Quizzes]
+-   [Group Term Project (Project Assignment)](#group-term-project-project-assignment)
+-   [Qualtrics Homework]
+
+<br>
+
+### Weekly Quizzes
+
+-   Each week you will have to complete a quiz on Canvas that is due on Sunday evening (11:59 PM). Students can view correct answers after the due date.
+
+-   The quiz will cover class materials and chapter readings. It's very important that you read the chapter before taking the quiz.
+
+-   You can use your notes during quizzes, but you can't search for answers online (Lockdown browser).
+
+-   There will be 10 questions to be completed in 30 minutes.
+
+-   Students will have 2 attempts to take the quiz and only the higher score of the two will be taken as the final quiz grade
+
+-   These questions are randomly selected from a test bank. Hence, no two quizzes will be the same to prevent students from cheating. Hence, 2 attempts from a student will be different as well.
+
+-   Weekly quiz only goes up until week 12, which means you will only need to do 12 quizzes (the last two are optional).
+
+-   **No extensions whatsoever will be granted**.
+
+<br>
+
+### Group Term Project (Project Assignment) {#group-term-project-project-assignment}
+
+The group project is a small-scale marketing research project and includes problem definition, questionnaire design, data collection, data analysis, and writing up the research report. Each group will also give an oral presentation at the end of the semester. Group members will evaluate each other's performance on the project, and the evaluation will be considered in assigning individual students' grades for the project. If a group member consistently fails to contribute appropriately to the group's work, the other group members may request in writing to the instructor that the non-performing member be terminated from group. In such instances, the terminated group member will be allowed to use data collected by the group but will be required to complete remaining project assignments on his/her own, including data analysis, presentation, and final report. A terminated group member may appeal this decision to the instructor in writing, but must do so within **four calendar days of notice of dismissal**.
+
+-   ***Project Assignments*** (PA) are described in a separate document tilted "[Project Assignment](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/Project_Assignments_online.pdf)". They are to be completed by group members and turned in on the due dates shown. To be considered, any requests to re-grade an assignment must be made within **one week after the grade has been posted on Canvas.**
+-   [Sample term project report](https://github.com/mikenguyen13/mar4050_S22/tree/main/project_assignment/written_report)
+-   Sign-up [here](https://docs.google.com/spreadsheets/d/1-TyKIpZLvhJGSf6bAvmbjQRic6v49G2dViZU2i8tGeA/edit#gid=0)
+
+<br>
+
+### Qualtrics Homework
+
+[This assignment](https://github.com/mikenguyen13/mar4050_S22/raw/main/Qualtrics%20assign.docx) helps you familiarize yourself with Qualtrics, which will aid you in preparing your questionnaire for the group project.
+
+<br>
+
+## Examinations
+
+-   Examinations will be multiple choice questions.
+-   Makeup exams will be given only in cases of verified illness or in other extenuating circumstances approved at least one week beforehand by the instructor. Makeup exams are normally given during final exam week. An unexcused absence from an exam will result in a grade of zero for that exam.
+-   You can use your notes during exams, but you can't search for answers online (Lockdown browser).
+
+<br>
+
+# **TENTATIVE SCHEDULE -- MRKTNG 4050**
+
+**Import note:**
+
+-   All of the course materials are published on Canvas
+-   PA is a group project assignment.
+-   Chapters refers to chapters in the textbook.
+-   This schedule is subject to changes due to possible adaption to the class' pace. Hence, you should always view the most updated version on Canvas.
+-   [Registrar Academic Calendar](https://registrar.missouri.edu/wp-content/uploads/2022/09/2022-2023-Academic-Calendar.pdf)
+
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| Week     | **Date** | **Topic**                                         | **Assignments Due**               | **Chapter Reading** |
++:========:+==========+===================================================+===================================+=====================+
+| 1        | Jan 18   | Course Intro                                      |                                   | 1                   |
+|          |          |                                                   |                                   |                     |
+|          |          | Problem Analysis                                  |                                   |                     |
+|          |          |                                                   |                                   |                     |
+|          |          | Case Discussion                                   |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 2        | Jan 23   | The Research Process                              | PA #1 (end of the day)            | 2, 3                |
+|          |          |                                                   |                                   |                     |
+|          |          | Problem Definition                                | Quiz 1 (Sunday)                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Jan 25   | Intro to Project                                  | PA #2 (Sunday)                    | 4                   |
+|          |          |                                                   |                                   |                     |
+|          |          | Case 1                                            | Quiz 2 (Sunday)                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 3        | Jan 30   | Exploratory Research                              |                                   |                     |
+|          |          |                                                   |                                   |                     |
+|          |          | Research Designs                                  |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Feb 1    | Information Systems, Dashboards, & Data Analytics | PA #3 (Sunday)                    | 5, 6                |
+|          |          |                                                   |                                   |                     |
+|          |          | Case 2                                            | Quiz 3 (Sunday)                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 4        | Feb 6    | **Project Meeting**                               |                                   |                     |
+|          |          |                                                   |                                   |                     |
+|          |          | (RM 449)                                          |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Feb 8    | Secondary & Syndicated Data                       | PA \# 3.5 revision (Sunday)       | 7, 8                |
+|          |          |                                                   |                                   |                     |
+|          |          | Experimentation                                   | Quiz 4 (Sunday)                   |                     |
+|          |          |                                                   |                                   |                     |
+|          |          | Case 3                                            |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 5        | Feb 13   | Survey Research                                   | Qualtrics homework published      | 9, 10, 11           |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Feb 15   | Measurement                                       | Quiz 5 (Sunday)                   | 12                  |
+|          |          |                                                   |                                   |                     |
+|          |          | Questionnaire Design                              | Qualtrics homework (Sunday)       |                     |
+|          |          |                                                   |                                   |                     |
+|          |          | Case 4                                            |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 6        | Feb 20   | Questionnaire Design II                           |                                   | 13                  |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Feb 22   | Questionnaire Analysis                            | Quiz 6 (Sunday)                   | 14                  |
+|          |          |                                                   |                                   |                     |
+|          |          | Case 5                                            | PA #4 (Sunday)                    |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 7        | Feb 27   | **Project Meeting**                               | PA #5 (strongly suggest to begin) | 15                  |
+|          |          |                                                   |                                   |                     |
+|          |          | (RM449)                                           |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Mar 1    | Sampling                                          | PA \# 4.5 (revision) (Sunday)     |                     |
+|          |          |                                                   |                                   |                     |
+|          |          | Data Preparation                                  | Quiz 7 (Sunday)                   |                     |
+|          |          |                                                   |                                   |                     |
+|          |          | Case 6                                            |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 8        | Mar 6    | **First Exam**                                    |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Mar 8    | Work Day (collecting data)                        | Quiz 8 (Sunday)                   | 16                  |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 9        | Mar 13   | Descriptive Statistics                            |                                   | 12                  |
+|          |          |                                                   |                                   |                     |
+|          |          | (Possibly Case 7)                                 |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Mar 15   | Data Analysis Plans                               | PA #5 (Sunday)                    |                     |
+|          |          |                                                   |                                   |                     |
+|          |          |                                                   | Quiz 9 (Sunday)                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 10       | Mar 20   | Data Analysis                                     |                                   | 17                  |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Mar 22   | Visualizing and Reporting Data                    | PA #6 (Sunday)                    | 20                  |
+|          |          |                                                   |                                   |                     |
+|          |          |                                                   | Quiz 10 (Sunday)                  |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          |          | **Spring Break**                                  |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 11       | Apr 3    | Correlation                                       |                                   | 17                  |
+|          |          |                                                   |                                   |                     |
+|          |          | Simple Regression                                 |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Apr 5    | Simple Regression (continued)                     | PA #7 (Sunday)                    | 20                  |
+|          |          |                                                   |                                   |                     |
+|          |          |                                                   | Quiz 11 (Sunday)                  |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 12       | Apr 10   | Multiple Regression Basics                        |                                   | 18                  |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Apr 12   | Multiple Regression Applications                  | Quiz 12 (Sunday)                  |                     |
+|          |          |                                                   |                                   |                     |
+|          |          |                                                   | PA #8 (Sunday)                    |                     |
+|          |          |                                                   |                                   |                     |
+|          |          |                                                   | PA #9 (optional) (end of the day) |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 13       | Apr 17   | **Project Meeting (optional)**                    |                                   |                     |
+|          |          |                                                   |                                   |                     |
+|          |          | (RM 449)                                          |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Apr 19   | Presentations                                     | 4 presentations                   |                     |
+|          |          |                                                   |                                   |                     |
+|          |          |                                                   | PA #10 (due the day before)       |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 14       | Apr 24   | Presentations                                     | 4 presentations                   |                     |
+|          |          |                                                   |                                   |                     |
+|          |          |                                                   | PA #10 (the day before)           |                     |
+|          |          |                                                   |                                   |                     |
+|          |          |                                                   | PA #11 (end of the day)           |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | Apr 26   | Review for Exam                                   |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 15       | May 1    | **Second Exam**                                   |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+|          | May 3    | Project Checkup                                   |                                   |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+| 16       | May 8    | Project Report Due                                | PA #12 (end of the day)           |                     |
+|          |          |                                                   |                                   |                     |
+|          |          |                                                   | PA #13 (end of the day)           |                     |
++----------+----------+---------------------------------------------------+-----------------------------------+---------------------+
+
+: Tentative Schedule
+
+<br>
+
+# Academic Honesty
+
+Academic honesty is fundamental to the activities and principles of a university. All members of the academic community must be confident that each person's work has been responsibly and honorably acquired, developed, and presented. Any incident of academic honesty (such as cheating on tests or plagiarism) will be reported to the office of the provost. Academic dishonesty is an extremely serious matter with serious consequences, potentially including an automatic F for the course and probation or expulsion.
+
+<br>
+
+# Special Needs
+
+If you have special needs as addressed by the Americans with Disabilities Act and need assistance, you must notify the instructor by the second week of the semester. To request academic accommodations, students must also register with Disability Services, AO38 Brady Commons, 882-4696. It is the campus office responsible for reviewing documentation provided by students requesting academic accommodations, and for accommodations planning in cooperation with students and instructors, as needed and consistent with course requirements.
+
+## Disability Accommodation Statement {.unnumbered}
+
+The goal of the University of Missouri is to ensure an inclusive learning environment for all students. [[The University of Missouri Disability Center]{.underline}](https://disabilitycenter.missouri.edu/) provides services and accommodations for students to participate fully in the learning experience and to experience equitable evaluation of their performance.
+
+Students (including online students) with a documented disability can contact the Disability Center to establish an [accommodation plan](https://disabilitycenter.missouri.edu/accommodations-and-supports/). Documented disabilities include hearing, vision, mobility, learning and attention, psychological health and physical health.
+
+Students' accommodations are implemented with the input of students to maximize the learning experiences.
+
+The MU Disability Center keeps information about a student's disability confidential.
+
+Please notify me of your eligibility for accommodations as soon as possible. Additionally, if there are aspects of the course that present as barriers, such as inaccessible course content (e.g., learning assessments, PowerPoint, non-captioned videos, images, tables, PDFs) or if you need an immediate accommodation due to an injury, please contact me or the Disability Center as soon as possible.
+
+<br>
+
+# Policy on Discrimination
+
+*We have **no tolerance** for discrimination or acts of hate in our community and encourage robust, respectful dialogue and interactions. No matter where you come from, no matter your race, gender, identity, preference or idea & perspective, we all come together to learn, and everyone deserves to be treated with respect and to thrive. If anyone experiences discrimination or harassment, we encourage them to report it to our campus [Offices of Civil Rights](https://www.umsystem.edu/ums/dei/titleix/title_ix_offices) and Title IX at civilrights-titleix\@missouri.edu.*
+
+<br>
+
+# **Decreasing the Risk of COVID-19 in Classrooms and Labs**
+
+MU cares about the health and safety of its students, faculty, and staff. To provide safe, high-quality education amid COVID-19, we will follow several specific campus policies in accordance with the advice of the Center for Disease Control and Boone County health authorities. This statement will be updated as information changes.
+
+-   **If you are experiencing any COVID-related symptoms,** or are otherwise feeling unwell, do not attend in-person classes and contact your health care provider and/or student health immediately. COVID symptoms include: fever greater than 100.4 or chills; cough, shortness of breath or difficulty breathing; fatigue; unexplained muscle or body aches; headache; new loss of taste or smell; sore throat; congestion or runny nose; nausea or vomiting; diarrhea.
+
+-   We will all wear **face coverings while in the classroom**, unless you have a documented exemption due to a disability or medical condition.
+
+-   We will maintain a **6 feet distance from each other at all times** (except in specific lab/studio courses with other specific guidelines for social distancing).
+
+-   We will enter the classroom and **fill the room starting at the front, filing all the way across a row**. When class ends, we will exit the row nearest to the door first; the instructor or TA will give the signal for the next row to exit, in the same manner.
+
+-   In any small section or lab class that requires them, **additional measures will be listed in the syllabus and be mandatory for class participation**.
+
+-   Online office hours will be available for all students.
+
+Compliance with these guidelines is required for all; anyone who fails to comply will be subject to the [accountability process](https://accountability.missouri.edu/accountability/conduct-process/), as stated in the University's [Collected Rules and Regulations](https://www.umsystem.edu/ums/rules/collected_rules/programs/ch200), Chapter 200 Student Code of Conduct.
+
+If an instructor has concerns about how a student is following COVID-19 policies and protocols, please report those concerns to the Office of the Dean of Students. You can fill out a COVID Safety Measures Reporting Form here:<https://cm.maxient.com/reportingform.php?UnivofMissouriSystem&layout_id=38>
+
+By taking the above measures, we are supporting your health and that of the whole Mizzou community. Thank you in advance for joining me and your peers in adhering to these safety measures.

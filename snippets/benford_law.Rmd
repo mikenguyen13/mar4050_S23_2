@@ -1,0 +1,174 @@
+---
+title: "Benford's Law"
+author: "Mike Nguyen"
+date: "2/14/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
+```
+
+-   Similar to Zipf's law: for a corpus of natural language: the frequency of any word is inversely proportional to its rank in the frequency table.
+
+    -   Ex: The most frequent word will occur approximately twice as often as the second most frequent word, three times as often as the third most frequent word
+
+-   **Newcomb--Benford law**, the **law of anomalous numbers**, or the **first-digit law**
+
+    -   In any natural numerical data, the leading digit is likely to be small:
+
+        -   The number 1 appears as leading significant about 30% of the time and so on.
+
+Resources:
+
+-   Example: <https://rstudio-pubs-static.s3.amazonaws.com/205239_5c34105c42b643259f2353762f31c330.html>
+-   [Benford's law](https://en.wikipedia.org/wiki/Benford%27s_law#Scientific_fraud_detection)
+-   [Fraud detection](https://en.wikipedia.org/wiki/Data_analysis_techniques_for_fraud_detection)
+
+## Example 1
+
+by [Nagdev Amruthnath](https://www.r-bloggers.com/2020/08/benfords-law-applying-to-existing-data/)
+
+```{r}
+# load libraries
+library(gtrendsR)
+library(reshape2)
+library(dplyr)
+library(benford.analysis)
+# read data
+data = read.csv("https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/counties/totals/co-est2019-alldata.csv", header = T)
+# filter out columns
+data_filt = data %>% filter(COUNTY != 0) %>% select(c(STNAME, CTYNAME, CENSUS2010POP))
+# perform benford analysis
+trends = benford(data_filt$CENSUS2010POP, number.of.digits = 1, discrete = T, sign = "positive") 
+trends
+# plot results
+plot(trends)
+```
+
+## Example 2
+
+[original post](https://rstudio-pubs-static.s3.amazonaws.com/205239_5c34105c42b643259f2353762f31c330.html)
+
+Benford function follows log base 10
+
+```{r}
+benlaw <- function(d)
+  log10(1 + 1 / d)
+digits <- 1:9
+baseBarplot <-
+  barplot(
+    benlaw(digits),
+    names.arg = digits,
+    xlab = "First Digit",
+    ylim = c(0, .35)
+  )
+```
+
+```{r}
+firstDigit <- function(x) substr(gsub('[0.]', '', x), 1, 1)
+pctFirstDigit <- function(x) data.frame(table(firstDigit(x)) / length(x))
+```
+
+```{r}
+N <- 1000
+set.seed(1234)
+x1 <- runif(N, 0, 100)
+df1 <- pctFirstDigit(x1)
+head(df1)
+```
+
+The value that you create will look very different from those from nature
+
+```{r}
+barplot(
+    benlaw(digits),
+    names.arg = digits,
+    xlab = "First Digit",
+    ylim = c(0, .35)
+  )
+
+lines(
+  x = baseBarplot[, 1],
+  y = df1$Freq,
+  col = "red",
+  lwd = 4,
+  type = "b",
+  pch = 23,
+  cex = 1.5,
+  bg = "red"
+)
+
+
+# When you square these values, it may resemble the Benford's law a little more
+
+df2 <- pctFirstDigit(x1^2)
+lines(x = baseBarplot[,1], y = df2$Freq, col = "violet", lwd = 4, 
+      type = "b", pch = 23, cex = 1.5, bg = "violet")
+
+
+# Then, you divide the original number with a newly generated dataset 
+
+
+x3 <- runif(N, 0, 100)
+df3 <- pctFirstDigit(x1^2 / x3)
+lines(x = baseBarplot[,1], y = df3$Freq, col = "blue", lwd = 4, 
+      type = "b", pch = 23, cex = 1.5, bg = "blue")
+
+# then you time the newly generate dataset
+
+x4 <- runif(N, 0, 100)
+df4 <- pctFirstDigit(x1^2 / x3 * x4)
+lines(x = baseBarplot[,1], y = df4$Freq, col = "green", lwd = 4, 
+      type = "b", pch = 23, cex = 1.5, bg = "green")
+```
+
+Everything again with a legend
+
+```{r}
+library(ggplot2)
+df <- data.frame(x = digits, y = benlaw(digits))
+ggBarplot <- ggplot(df, aes(x = factor(x), y = y)) + geom_bar(stat = "identity") +
+  xlab("First Digit") + ylab(NULL)
+print(ggBarplot)
+
+p1 <- ggBarplot + 
+  geom_line(data = df1, 
+            aes(x = Var1, y = Freq, group = 1), 
+            colour = "red", 
+            size = 2) +
+  geom_point(data = df1, 
+            aes(x = Var1, y = Freq, group = 1), 
+            colour = "red", 
+            size = 4, pch = 23, bg = "red")
+p2 <- p1 +
+  geom_line(data = df2, 
+            aes(x = Var1, y = Freq, group = 1), 
+            colour = "violet", 
+            size = 2) +
+  geom_point(data = df2, 
+             aes(x = Var1, y = Freq, group = 1), 
+             colour = "violet", 
+             size = 4, pch = 23, bg = "violet")
+print(p2)
+
+DF <- cbind(df1, df2[2], df3[2], df4[2])
+names(DF) <- c("FirstDigit", "X1", "X2=X1^2", "X3=X2 / X3", "X1^2 / X3 * X4")
+head(DF)
+
+library(reshape2)
+mDF <- melt(DF, id = "FirstDigit", variable.name = "operation")
+head(mDF)
+
+P <- ggBarplot + 
+  geom_line(data = mDF, 
+            aes(x = FirstDigit, y = value, colour = operation, group = operation), 
+            size = 1.5) +
+  geom_point(data = mDF, 
+            aes(x = FirstDigit, y = value, colour = operation, 
+                group = operation, bg = operation), 
+            size = 4, pch = 23)
+print(P)
+```
+
+Moral of the story: Please don't try to fabricate data. Unless you have a sophisticated random number generator that can match the Benford's law, it's futile.

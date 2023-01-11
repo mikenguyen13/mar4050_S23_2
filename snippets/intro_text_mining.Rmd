@@ -1,0 +1,145 @@
+---
+title: "Introduction Post Text Mining"
+output: html_notebook
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+[Python code](https://github.com/dsp444/save_canvas_discussion)
+
+
+Econ Stata
+Stat: SAS
+Stat: R
+Psychology: SPSS
+CS: Python
+
+
+```{r, eval=FALSE}
+html = "https://umsystem.instructure.com/api/v1/courses/53757/discussion_topics/983175/view?include_new_entries=1&include_enrollment_state=1"
+```
+
+Step 1: Import libraries
+
+```{r, message=FALSE, warning=FALSE}
+library("tidyverse")
+library("tm")
+library("SnowballC")
+library("wordcloud")
+library("RColorBrewer")
+```
+
+Step 2: Import and clean data
+
+```{r, message=FALSE}
+
+
+data = jsonlite::fromJSON(file.path(getwd(), "view.json"))
+
+# data = rio::import(file.path(getwd(),"discussion-report-all_data.csv"))
+
+clean_data = data$view %>% 
+  distinct(id, .keep_all = T) %>% 
+  select(message) %>% 
+  
+  mutate(message = gsub("&nbsp;"," ",message,fixed = TRUE)) %>%
+  
+  mutate(message = gsub("<p>", " ", message , fixed = T)) %>%
+  mutate(message = gsub("<strong>", " ", message , fixed = T)) %>%
+  mutate(message = gsub("<span>", " ", message , fixed = T)) %>%
+  
+    mutate(message = gsub("</p>", " ", message , fixed = T)) %>%
+  mutate(message = gsub("</strong>", " ", message , fixed = T)) %>%
+  mutate(message = gsub("</span>", " ", message , fixed = T)) %>%
+  
+  mutate(message = gsub("What is your name?", " ", message, fixed = T)) %>%
+  mutate(message = gsub("What is your quest?", " ", message, fixed = T)) %>%
+  mutate(message = gsub("What is your favorite color?", " ", message, fixed = T)) %>%
+  mutate(
+    message = gsub(
+      "What is the airspeed velocity of an unladen swallow?",
+      " ",
+      message,
+      fixed = T
+    )
+  ) %>%
+  mutate(
+    message = gsub(
+      "Some questions are just hard! What question would you like to be able to answer at the end of this course? In other words, what would you like to learn about marketing research?",
+      " ",
+      message,
+      fixed = T
+    )
+  ) 
+  
+  
+  # mutate(message = gsub("[^[:alnum:][:blank:]+?&/\\-]", " ", message))
+  # mutate(message = gsub("<p> | <strong> | </p>  |</strong>"," ",message,fixed = TRUE))
+
+docs = Corpus(VectorSource(clean_data$message))
+
+docs <- docs %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(stripWhitespace) %>% 
+  tm_map(content_transformer(tolower)) %>% 
+  tm_map(removeWords, stopwords("english")) #%>% 
+  # tm_map(stemDocument,language = "english")
+
+inspect(docs[2])
+```
+
+Step 3: Build a term-document matrix
+
+```{r}
+dtm <- TermDocumentMatrix(docs)
+m <- as.matrix(dtm)
+v <- sort(rowSums(m),decreasing=TRUE)
+d <- data.frame(word = names(v),freq=v)
+head(d, 20)
+```
+
+Step 4: Generate the Wordcloud
+
+```{r}
+wordcloud(
+  words = d$word,
+  freq = d$freq,
+  min.freq = 1,
+  max.words = 200,
+  random.order = FALSE,
+  rot.per = 0.35,
+  colors = brewer.pal(8, "Dark2")
+)
+```
+
+Step 5: Find frequent terms
+
+```{r}
+wordcloud2::wordcloud2(data=d, size=1.6, color='random-dark')
+```
+
+```{r}
+wordcloud2::wordcloud2(data=d, size = 0.7, shape = 'pentagon')
+```
+
+Step 6: Find their associations
+
+```{r}
+findAssocs(dtm, terms = "market", corlimit = 0.3)
+```
+
+The frequency table of words
+
+```{r}
+head(d, 10)
+```
+
+Step 7: Plot word frequencies
+
+```{r}
+barplot(d[1:10,]$freq, las = 2, names.arg = d[1:10,]$word,
+        col ="lightblue", main ="Most frequent words",
+        ylab = "Word frequencies")
+```

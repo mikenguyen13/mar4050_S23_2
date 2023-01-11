@@ -1,0 +1,44 @@
+---
+title: "Bonus Problem"
+author: "Mike Nguyen"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+You are a researcher at a marketing company responsible for doing analysis. You will have to interpret your results in layman's terms for your boss. Your company has already hired an external agency to go and collect data. Now, it's your job to analyze this dataset and find insights.
+
+**Extra credit: 20 (in Excel) or 30 (in R)**
+
+The dataset contains the following variables:
+
+-   Satisfaction: Customers indicate their satisfaction from the scale of 0-100
+
+-   Age: Customer's age
+
+-   Gender: 1 = female, 0 = male
+
+-   Previous purchase: number of products purchased previously
+
+-   Social media: whether the customer has a social media account or not.
+
+Questions:
+
+1.  Get the mode for the variable **gender, social media**. Interpret what these numbers mean
+2.  Get the mean for the variable **satisfaction, age**. Interpret what these numbers mean
+3.  Is there a difference between male and female regarding their levels of satisfaction? Conduct F-test, t-test, and interpret
+4.  Is there a difference between those who have social media accounts and those who don't regarding their levels of satisfaction? Conduct F-test, t-test, and interpret
+5.  Create a cross-tabulation table with the variables social media and gender (each cell contains the number of customers belongs to that category).
+6.  Conduct regression analysis and report and interpret the regression equation
+
+```{r, include = FALSE}
+age = sample(20:40, 1000, replace = T)
+gender = sample(0:1, 1000, replace = T)
+previous_purchase = sample(1:4, 1000, replace = T)
+social_media = sample(0:1, 1000, replace = T)
+satisfaction = 1.5 * age + 2 * gender + 3 * previous_purchase + 1 * social_media + rnorm(1000)
+df = data.frame(satisfaction, age, gender, previous_purchase, social_media)
+# rio::export(df, file.path(getwd(), "bonus_df.xlsx"))
+```

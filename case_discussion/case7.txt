@@ -1,0 +1,13 @@
+DISCUSSION CASE #7 - Homecare of America (confidence intervals)
+
+Do both Part A and part B. 
+
+Be prepared to show your work on the whiteboard in class and to explain what the answers mean?
+
+A. Homecare of America is a franchise operation that provides house minders for people when they are out of town. Their services include feeding pets, bringing in newspapers and mail, and generally keeping an eye on things while the homeowner is gone. They gradually expanding their operations to additional cities.
+
+When determining whether to enter a particular market, the company conducts a survey in that market to find out how many days per year homeowners are out of town. In Scranton, Pennsylvania, a survey of 538 homeowners found that homeowners are out of town, on average, 16.7 days, with a standard deviation of 8.6 days.
+
+What is the true mean number of days out of town among homeowners in this area? You want to be 99% confident of your results.
+
+B. In their surveys, the company also describes their house minding services and measures respondents' intentions to use this service if the company expanded to their area. In the survey of Scranton, 6.2% of the people surveyed said they would be likely to use the service. What is the likely utilization rate for this service among the population of homeowners in Scranton? You want to be 95% confident of your results. Carry your work out to 4 decimal places.

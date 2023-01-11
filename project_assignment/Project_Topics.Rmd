@@ -1,0 +1,25 @@
+---
+title: "Possible Project Topics for Term Project"
+output:
+  pdf_document: default
+  html_notebook: default
+urlcolor: blue
+---
+
+PA #2 requires you to choose three topics from this list that your group would be interested in investigating for your term project. You may also propose a topic of your own. Indicate your order of preference (first, second, and third) for the topics you choose. You will take the perspective of a non-profit market research agency, such as the Consumer Reports, to provide objective information to the consumers. The projects should help fellow Mizzou students navigate the changes due to the impact of COVID19, such as online learning, online shopping, and virtual job searching.
+
+1.  Webchat: Webchat (also known as online chat, live chat, and chat-now function) is popular on the retailer's websites. In this project, you would assess awareness of the webchat function in the Mizzou library among MU students. Find out how many people have used the webchat function, how many people use it to get information online for books or articles, and identify any barriers that prevent people from using this function.
+
+2.  Shopping after the COVID: In this project, you would assess the MU students' shopping behaviors after the COVID. Find out how many students would shop downtown after they return to the campus, and identify any barriers that prevent the students from shopping downtown. (hint: identify your team with a specific retailer or a specific service provider).
+
+3.  Mizzou Rec Center: In this project, you would assess awareness of the campus Mizzou Rec Center among MU students, find out how many students have used the center's services (and which services), and identify any barriers that prevent students from using the center.
+
+4.  Virtual job searching: COVID19 makes the traditional career fair improbable. In this project, you would assess the MU students' satisfaction with Mizzou's virtual career fair service, identify the critical factors for successful virtual job searching, and the areas of improvement for the Mizzou organizers.
+
+5.  Skillsoft percipio: In this project, you would assess the MU students' awareness of Skillsoft percipio - an online learning platform free for MU's students. And how the Mizzou online learning experience is compared with other publicly available courses such as Khan Academy, Coursera, Udemy, and Edx, and identify the areas to improve Mizzou's online learning experience. Find out how popular this platforms is and identify the barriers that prevent students from using the service
+
+6.  Food delivery service: In this project, you would assess the Mizzou students' satisfaction with food delivery services such as UberEat, DoorDash, GrubHub, Postmates. Identify critical factors to improve the service experience.
+
+7.  Mizzou's response to COVID19: In this project, you would assess the Mizzou students' satisfaction with Mizzou's response to COVID19 to re-open the campus. Find out how many students prefer to come to campus, find out what safety measures they are taking/ are willing to take if they were back on campus. , and identify the areas that Mizzou can do to ensure the students' safety while allowing them to enjoy college life.
+
+8.  If your team decides to propose your own project, please follow the format above to describe your proposal. Please refer to "[**Client**](https://github.com/mikenguyen13/mar4050_S22/raw/master/project_assignment/sponsor/client.pdf)" document for more information and guidance.

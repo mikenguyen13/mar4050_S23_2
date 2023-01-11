@@ -1,0 +1,349 @@
+---
+title: "Project Assignments (PA) and Due Dates"
+output:
+  pdf_document: default
+  html_notebook: default
+urlcolor: blue
+---
+
+The term project is designed to provide you with firsthand experience in designing and carrying out a marketing research project. The project is divided into 13 assignments, described below. Each completed assignment should be submitted by the date and time specified on Canvas. All components of an assignment must be turned in to receive full credit.
+
+| Assignment | Points |
+|------------|--------|
+| 1          | 5      |
+| 2          | 5      |
+| 3          | 20     |
+| 3.5        | 20     |
+| 4          | 20     |
+| 4.5        | 20     |
+| 5          | 20     |
+| 6          | 20     |
+| 7          | 10     |
+| 8          | 20     |
+| 9          | 0      |
+| 10         | 40     |
+| 11         | 10     |
+| 12         | 80     |
+| 13         | 10     |
+| Total      | 300    |
+
+# Assignment 1: GROUP FORMATION
+
+Your group will work together extensively throughout the semester to complete a term research project. There are **four to five members per group**. You may choose the members of your group or have the instructor assign you to a group. Group assignments done by the instructor will be on a random basis. During the first two class sessions, there will be small group breakout sessions that will allow you to get to know some of your classmates.
+
+Submit this assignment on Canvas and indicate:
+
+a)  Title your assignment word document file name with **'Group & team captain's initials'** if you and **three or four** other classmates have formed a team (maximum 6 people in a team). For example, if your team captain is Michael Jordan then you will title your word document as 'Group MJ'. In the word document to be submitted, please include the identity of your teammates, including your name in descending order of the first name.
+
+b)  Title your assignment word document file name with **'Random & your initial'** if you would like the instructor to assign you to a team.
+
+This assignment needs to be submitted **individually** by each student in the class.
+
+<br>
+
+# Assignment 2: TEAM ORIENTATION; PROJECT TOPIC CHOICES
+
+Your group should submit the two items below on Canvas.
+
+**(1)** Completed [Team Orientation Assignment](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/Team%20Orientation.docx).
+
+**(2)** Your group's first, second, and third choices for a project topic, from the "[Project Topics](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/Project_Topics.pdf)". You may also propose a topic of your own. If you wish to propose a topic, provide some details so your instructor can evaluate whether the proposed project would work for this class.
+
+The instructor will make every attempt to assign your group its first choice for the project topic, but that may not be possible if other groups have the same first choice.  The instructor will notify you of your group's final topic assignment.
+
+# Assignment 3: DEFINE THE RESEARCH PROBLEM
+
+Each team will submit a word or pdf document for this assignment.
+
+This assignment requires meeting with the professor. See the [signup sheet](https://docs.google.com/spreadsheets/d/1_dxqG99lQMBNp_87SlojglrzqVy6KK4FA4T4SBZ88rE/edit?usp=sharing).
+
+This PA is highly similar to our [first case discussion](https://github.com/mikenguyen13/mar4050_S22/raw/main/case_discussion/CE1%20%20discussion.docx).
+
+Your project topic is typical of the problem or decision facing a local business or nonprofit organization. Your group's role is to act as marketing consultants to the business described by your topic.
+
+In this assignment, based on your knowledge of marketing, business principle, and the student population, you will set at least **two research objectives** for your research project and a set of research questions for each objective that your project will answer. Your assignment should include the following elements:
+
+**(1)** a general statement of the **client's problem** that the client hopes to solve with the information you will provide in your report.
+
+**(2)** the decision(s) to be made by your client based on your research, and the decision alternatives
+
+**(3)** the target for the decision(s) to be made:
+
+-   Is the goal to increase satisfaction/patronage of existing customers?
+
+-   Is it to bring new customers to the business?
+
+    You ***must*** choose ONE of these; for this project, you cannot do both.
+
+**(4)** the client's ***managerial objectives*** for the research project (may overlap with 1 and 2 above)
+
+-   **NOTE regarding managerial and research objectives**:
+
+    -   A managerial objective is what the client hopes will result from the research project; examples might be
+
+        -   "to develop a more effective advertising campaign" or
+
+        -   "to increase the number of college students who shop at our store."
+
+    -   A research objective is different from a managerial objective. Your research objective should be to provide information that will help your client reach his/her managerial objective. For the managerial objective in the example above, a good research objective might be
+
+        -   "to determine which media college students are exposed to most frequently, and which media most strongly influence their purchase behavior."
+
+            You must provide both a managerial objective (in part 4) and a research objective (in part 5, next) in this assignment.
+
+**(5)** your project's ***research objective(s)***. Your project needs to have at least **two research objectives**. Some examples are listed below:
+
+-   Assess Columbia residents' awareness and knowledge about a local specialty grocery store that carries international foods.
+
+-   Identify the best media for the store to use to increase awareness.
+
+-   Determine whether customers would like a local restaurant to add a deck for outside dining and how often they would use it.
+
+-   Identify what features customers desire for the deck.
+
+-   Find out how satisfied incoming freshmen are with Mizzou's orientation procedures.
+
+-   Determine what changes would improve incoming freshmen's satisfaction with orientation procedures.
+
+**(6)** a list of research questions for each of the objectives in (5)
+
+Organize this assignment so that each objective is followed by the research questions that are designed to meet each objective
+
+The form of research questions will be discussed in class. You can also look at example term projects ([1](https://github.com/mikenguyen13/mar4050_S22/blob/main/project_assignment/written_report/example1%20SlideDoc%20research%20report.pdf),[2](https://github.com/mikenguyen13/mar4050_S22/blob/main/project_assignment/written_report/example2%20SlideDoc%20research%20report.pdf)) to see examples of research questions. Some important points to remember are below.
+
+-   Research questions are [not]{.underline} the same as questionnaire questions. Questionnaire questions are what you ask the consumer on a survey. Research questions are the questions the **manager** wants to answer. Review lecture and [Case Discussion 1](https://github.com/mikenguyen13/mar4050_S22/raw/main/case_discussion/CE1%20%20discussion.docx) to make sure your research questions are phrased appropriately. They should [not]{.underline} include any second person pronouns.
+
+-   The research questions should be very **specific**.
+
+-   You need at least 10 research questions. You can also include a few additional, less important research questions in case there is space for them in the project.
+
+-   **At least one of your research questions must be a group comparison research question** in which you compare groups of people among your respondents. For instance, you might compare heavy or light users of a product; compare students living in three different areas of Columbia with respect to their interest in a particular type of store; compare new versus established customers' brand perceptions, etc. This is called a group comparison research question. **Clearly identify which of your research questions is intended to be a group comparison research question.**
+
+-   Number the research questions so they are easy to refer to.
+
+5 points will be deducted for each question that does not follow the instruction.
+
+**REMEMBER**: When you prepare this assignment, **put each research question directly beneath the objective** the research question it relates to.
+
+# Assignment 3.5: DEFINE THE RESEARCH PROBLEM - revise and resubmit.
+
+**Please highlight the changes that you made in green**
+
+# Assignment 4: DESIGN A QUESTIONNAIRE
+
+Note this assignment requires meeting with the professor and your team members. See the [signup sheet](https://docs.google.com/spreadsheets/d/1_dxqG99lQMBNp_87SlojglrzqVy6KK4FA4T4SBZ88rE/edit?usp=sharing).
+
+The questionnaire is one of the most important parts of the project.
+
+Example questionnaires are [available](https://github.com/mikenguyen13/mar4050_S22/tree/main/project_assignment/questionnaire/example_questionaire)
+
+You can consult these examples for reference regarding ideas about question wording and format and questionnaire layout. Be sure to also look at [Questionnaire Tips](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/questionnaire/Questionnaire%20Design%20Cheat%20sheet.docx).
+
+For this assignment, complete all steps of the questionnaire design process as covered in class. Make sure your questionnaire has been pretested and revised by this date. The questionnaire you turn in should be your final, best work. Submit the following items on Canvas:
+
+1.  the message you will use to introduce the survey and ask for participation; put these on a separate page from your questionnaire
+
+2.  your questionnaire (downloaded from Qualtrics)
+
+3.  your final project objectives and list of research questions (the research questions must be numbered)
+
+4.  a completed copy of Questionnaire Worksheet A ([WorksheetA template](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/questionnaire/8-Qnaire%20worksheet%20A.xls))
+
+5.  a completed copy of Questionnaire Worksheet B ([WorksheetB template](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/questionnaire/8-Qnaire%20worksheet%20B.xls))
+
+The questionnaire must include [**screener questions**]{.underline} (if relevant) and [**a complete set of demographic questions**]{.underline} appropriate to the people you are surveying.
+
+Unless an exception is granted by the instructor, the questionnaire should fit on the front and back of a single sheet of letter-size paper.
+
+# Assignment 4.5: REVISED COPY OF QUESTIONNAIRE
+
+Revise and resubmit Assignment #4 - Design a questionnaire
+
+Please **highlight** the changes that you made in green on both the questionnaire and the worksheet A and B.
+
+# Assignment 5: COMPLETE DATA COLLECTION, DATA COLLECTION RESULTS REPORT
+
+Complete your data collection. Each team will need 200 completed questionnaires to have enough sample size to do the subsequent data analysis.
+
+Prepare a results report in Qualtrics. Go to Projects in Qualtrics and do the following to get your report.
+
+1.  Select your project and then click on Reports (in the gray bar near the top).
+
+2.  Click the button for Share Report (toward the upper right) and select Word Document.
+
+3.  Be sure that Select All is checked in the dialog box that appears; click Export Pages.
+
+4.  In the box that appears, click Download (may take a few seconds to appear)
+
+If you have trouble finding the downloaded report on your computer, search for "Default Report.docx"
+
+Submit your results report on Canvas.
+
+<br>
+
+# Assignment 6: DATA ANALYSIS PLAN
+
+Type the data analysis plan for your project that you develop in class into a formal document, using the [Data Analysis Plan template](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/Data%20Anal%20Plan%20wkst.xlsx) and the [template](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/data%20analysis%20plan%20grid.xlsx). [Include at least one group comparison analysis in your data analysis plan]{.underline}. You can use this [Qualtrics guide](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/differences%20RQ%20analysis%20on%20Qualtrics.docx) for the group comparison research questions. You don't need to do the analysis yet, you only need to plan for the analysis.
+
+Submit your typed data analysis plan on Canvas including:
+
+-   Your typed data analysis plan
+
+When next week's class begins, each team member should have in his/her possession the following items to refer to during class:
+
+1.  your typed data analysis plan
+
+2.  your research questions and research objectives
+
+3.  your questionnaire
+
+4.  the Results Report from Qualtrics (see PA 5)
+
+when the actual in-class analysis begins, each team member should have in his/her possession the above items to refer to during class.
+
+<br>
+
+# Assignment 7: MID-SEMESTER PEER EVALUATION
+
+In this assignment, you will evaluate your own performance throughout the project and that of other members of your group on the major project assignments completed so far. Click this [link](https://missouri.qualtrics.com/jfe/form/SV_9ov35wcAs9vOiHA) to complete your evaluation. This evaluation will be used to calculate 1/3 of the weight for your final report score, which means you can still have a chance to work hard and make up the work to earn a higher grade.
+
+**Please submit the screenshot of your survey submission.**
+
+The formula to calculate your final report score is
+
+$$
+(\text{Mid-term Evaluation} \times \frac{1}{3} + \text{Final Evaluation} \times \frac{2}{3} ) \times \text{Instructor's score for the group}
+$$
+
+For example, you are evaluated to have contributed 60% to the project based on the mid-term evaluation. However, you try to make it up and in the final evaluation, your team evaluates you to have contributed 100% to the project. And the instructor assigns 80 points to your group. Then your score will be
+
+$$
+(60\% \times \frac{1}{3} + 100 \% \times \frac{2}{3}) \times 80 \approx 70
+$$
+
+This evaluation is confidential and will not be shared with group members. However, if you have a concern about your level of contribution to the project, or the contribution of another group member, you are encouraged to discuss this with your group. Regardless, it is a good time of the semester to take a few minutes of a regularly scheduled group meeting to discuss the following issues:
+
+-   is communication in the group working effectively? Are there ways it could be improved?
+
+-   is everyone doing their fair share of work? Is anyone feeling over-burdened?
+
+-   what significant contributions has each group member made to the project so far?
+
+-   what changes could each group member make to enhance group functioning?
+
+# Assignment 8: INITIAL DATA ANALYSIS REPORT
+
+To answer your research questions, you must analyze your data. In the assignment, you will conduct the analyses to answer your research questions and summarize the results in a pdf document. [Be sure to number the pages on this document]{.underline}. You can consult the following documents that we went through in class:
+
+1.  You can use this [Qualtrics guide](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/differences%20RQ%20analysis%20on%20Qualtrics.docx) for the difference research questions.
+
+2.  You can use the lecture slides on [Descriptive Statistics](https://github.com/mikenguyen13/mar4050_S22/raw/main/lectures/9/1_Descriptive%20Statistics.pptx), and [Data Analysis Plan](https://github.com/mikenguyen13/mar4050_S22/raw/main/lectures/9/2_Data%20Analysis%20Plan.pptx), and worksheets on [cross-tab](https://github.com/mikenguyen13/mar4050_S22/raw/main/lectures/9/Cross-tab%20worksheet.xlsx) and [descriptive](https://github.com/mikenguyen13/mar4050_S22/raw/main/lectures/9/descriptive.xlsx) for the difference questions bar-charts and other statistics.
+
+3.  You can use the [excel cheat sheet](https://github.com/mikenguyen13/mar4050_S22/raw/main/regression%20materials/2-Excel%20help%20sheet.docx) when you do the actual analysis.
+
+4.  You can consult the [level of measurement common issues](https://github.com/mikenguyen13/mar4050_S22/raw/main/lectures/Common%20issue%20level%20of%20measurement.docx) for your revision on the level of measurement.
+
+5.  You **should** consult the Sample student projects ([1](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/written_report/example1%20SlideDoc%20research%20report.pdf), [2](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/written_report/example2%20SlideDoc%20research%20report.pdf)) for their **result section** on the **expected PA outputs**. The analysis report is organized by research question and should include the following:
+
+For each research question
+
+-   write out the research question
+
+-   indicate which questionnaire question answers the research question
+
+-   indicate the statistical test used to answer the question (percent, cross-tabulation, etc.)
+
+-   briefly describe the answer to the research question.
+
+-   for each research question, copy and paste the relevant part of the Qualtrics Results Report into your document.
+
+-   add bar charts to visualize the results.
+
+You can use an outline format for your report. [Submit the report on Canvas]{.underline}.
+
+<br>
+
+# Assignment 9: MEETING WITH INSTRUCTOR (optional)
+
+On this date, you may meet with your professor to ask questions about your presentation or anything else. If you have questions about your data analysis results, bring the following with you to your meeting:
+
+-   your questionnaire
+
+-   your data analysis plan (Assignment #6, updated)
+
+-   initial data analysis report (PA #8)
+
+<br>
+
+# Assignment 10: TERM PROJECT PRESENTATION
+
+This assignment is due the day before your presentation at 11:59 PM.
+
+-   The presentation of your term project should cover the topics described on the [Pointers on Presentations](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/presentation/Pointers%20on%20presentations.docx).
+
+-   The presentation can be either in PowerPoint format, Google Slides, or Prezi.
+
+-   During the presentation, the monitor at the back of the room will be turned off so that you can get more practice in a setting similar to what you will encounter in a business environment.
+
+-   While preparing the presentation, carefully read and follow the Pointers on Presentations and review [the slides design tips](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/presentation/Presentation%20slide%20examples.pptx) and the [sample student presentation slides](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/presentation/Sample%20Student%20Presentation%20from%20previous%20semester.pptx) for reference.
+
+-   The presentation should last 15 minutes. If you go under or over this time frame, there is a grade deduction of 1 point per minute. The class will have an opportunity to ask you questions following your presentation (5 minutes).
+
+-   Your presentation will be graded on the criteria described in the "[Presentation Evaluation Form](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/presentation/Presentation%20Evaluation%20Assignment.docx)."
+
+-   Each person will submit an evaluation for every group.
+
+-   You are responsible for practicing your presentation on the classroom equipment before presentation day and making sure that everyone in the group is familiar with how the equipment works.
+
+-   On presentation day, you must be set up and ready to go [before]{.underline} the beginning of class. If you are not ready at that time, there will be point deductions and you may be asked to give your presentation at another time. Class time is very tightly scheduled during presentation days, and it is necessary that all groups be ready to present at the appointed time.
+
+The grade for this assignment is based on
+
+-   Presentation submission (10 points)
+-   [Instructor's evaluation](https://docs.google.com/spreadsheets/d/1EmvxRjSobmu4Wcl0rrez1PjnlX6ky3J7pRfFn-Hjw1w/edit#gid=0) (10 points)
+-   Peers' evaluations (20 points)
+
+<br>
+
+# Assignment 11: PRESENTATION CRITIQUE
+
+Step 1: Familiarize yourself with the details of the critique assignment as described in the "[Presentation Evaluation Form](https://github.com/mikenguyen13/mar4050_S22/blob/main/project_assignment/presentation/Presentation%20Evaluation%20Assignment.pdf)".
+
+Step 2: All teams that are not presenting are required to submit their evaluation (1 evaluation per team for a presenting group). To submit your presentation critique, please fill out [this Qualtrics survey](https://missouri.qualtrics.com/jfe/form/SV_0xPBVxlRxxOmejQ) after each presentation (you can submit the survey multiple times)
+
+Step 3: On your "Thank you" page, click "Download PDF." Please submit this PDF document to Assignment 11. There should be one pdf document submission per group (you can submit to Assignment 11 on Canvas multiple times)
+
+<br>
+
+# Assignment 12: WRITTEN PROJECT REPORT
+
+Sample student projects ([1](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/written_report/example1%20SlideDoc%20research%20report.pdf), [2](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/written_report/example2%20SlideDoc%20research%20report.pdf)) are available. [Report format](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/written_report/Slidedocs%20report%20templates.pptx) and other guidelines are covered in class. See also the material titled "[Project Report Guidelines](https://github.com/mikenguyen13/mar4050_S22/raw/main/project_assignment/written_report/Project%20Report%20Guideline.pdf)".
+
+For this assignment, submit an electronic copy of your report on Canvas.
+
+Notes:
+
+-   You may wonder what the difference is between the presentation (if you use Powerpoint) and the written report. In the presentation, you have 10-12 minutes to present in the most succinct way about your research project, which means that you might not be able to address all the research questions. However, in the report, you can put everything that is of interest to the consumers of that report (e.g., managers).
+-   If you attempt to submit the same Powerpoint presentation as your written report. You will receive **no points** for this assignment because you did not perform any work for this assignment.
+
+<br>
+
+# Assignment 13: PEER EVALUATION (by 5 pm)
+
+In this assignment, you will evaluate your own performance throughout the project and that of other members of your group on the major project assignments completed so far. Click this [link](https://missouri.qualtrics.com/jfe/form/SV_cYYVV4ICwqR4mMK) to complete your evaluation.
+
+**Please submit the screenshot of your survey submission.**
+
+If this form is not submitted, you may receive an incomplete grade for the course.
+
+The formula to calculate your final report score is
+
+$$
+(\text{Mid-term Evaluation} \times \frac{1}{3} + \text{Final Evaluation} \times \frac{2}{3} ) \times \text{Instructor's score for the group}
+$$
+
+For example, you are evaluated to have contributed 60% to the project based on the mid-term evaluation. However, you try to make it up and in the final evaluation, your team evaluates you to have contributed 100% to the project. And the instructor assigns 80 points to your group. Then your score will be
+
+$$
+(60\% \times \frac{1}{3} + 100 \% \times \frac{2}{3}) \times 80 \approx 70
+$$

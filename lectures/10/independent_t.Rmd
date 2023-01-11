@@ -1,0 +1,217 @@
+---
+title: "Independent t-test and Hypothesis Testing"
+author: "Mike Nguyen"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+# Hypothesis Test
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(warning = F, message = F)
+```
+
+## Visualization 1
+
+```{r}
+N = 20 #just chosen arbitrarily (20 responses)
+
+samp = rnorm(N, mean = 0, sd = 1)
+
+# hypothesis test whether the population mean is equal to 0. 
+# null: the true population mean equals 0
+# alternative: the true population mean is different from 0
+
+myTest = t.test(samp, mu = 0, alternative = "two.sided")
+myTest
+# cannot reject the null
+
+# get t-critical value (just like when you look up t-critical value)
+tcrit = qt(0.025, df = (N - 1)) # alpha = 0.025
+
+dum=seq(-3.5, 3.5, length=10^4) # For the plot
+
+
+plot(dum, dt(dum, df=(N-1)), type='l', xlab='t', ylab='f(t)')
+abline(v=myTest$statistic, lty=2)
+abline(v=tcrit, col='red', lty=2)
+abline(v=-tcrit, col='red', lty=2)
+```
+
+## Visualization 2
+
+```{r}
+library(MASS)
+# real data
+h=na.omit(survey$Height) # omit missing value in height
+
+# say we know the true 
+pop.mean=mean(h)
+pop.mean
+
+# but we can't survey everyone, so we only survey 30 people
+h.sample = sample(h,30)
+h.sample
+
+# then we test whether the sample mean equals the true (population) mean
+# null: the true population mean equals 172
+# alternative: the true population mean is different from 172
+t.test(h.sample,mu=pop.mean)
+# cannot reject the null
+
+# plot the t-test
+library(gginference)
+ggttest(t.test(h.sample,mu=pop.mean))
+```
+
+# Visualization 3
+
+```{r}
+library(MASS)
+library(ggplot2)
+
+h = na.omit(survey$Height)
+pop.mean = mean(h) # true population mean
+
+n_reps = 20 # try to sample 20 times
+sample_size = 30 # in each sample we collect 30 repsonses 
+res_list = list()
+
+for (i in 1:n_reps) {
+  h.sample = sample(h, sample_size)
+  res_list[[i]] = t.test(h.sample, mu = pop.mean)
+}
+
+dat = data.frame(
+  id = seq(length(res_list)),
+  estimate = sapply(res_list, function(x)
+    x$estimate),
+  conf_int_lower = sapply(res_list, function(x)
+    x$conf.int[1]),
+  conf_int_upper = sapply(res_list, function(x)
+    x$conf.int[2])
+)
+
+p = ggplot(data = dat, aes(x = estimate, y = id)) +
+  geom_vline(xintercept = pop.mean,
+             color = "red",
+             linetype = 2) +
+  geom_point(color = "grey30") +
+  geom_errorbarh(
+    aes(xmin = conf_int_lower, xmax = conf_int_upper),
+    color = "grey30",
+    height = 0.4
+  )
+p
+
+# ggsave("CI_plot.png", plot=p, height=4, width=6, units="in", dpi=150)
+```
+
+# One sample t-test
+
+Hypothesis test to see whether your mean is equal a hypothesized number
+
+```{r}
+library(webr)
+library(moonBook)
+
+set.seed(0)
+treeVolume <- c(rnorm(75, mean = 36500, sd = 2000))
+t.test(treeVolume, mu = 39000) # Ho: mu = 39000
+plot(t.test(treeVolume, mu = 39000))
+```
+
+# Generate Data
+
+```{r}
+set.seed(0)
+
+ClevelandSpending <- rnorm(50, mean = 250, sd = 75)
+NYSpending <- rnorm(50, mean = 300, sd = 80)
+
+spending <- c(ClevelandSpending, NYSpending)
+city <- c(rep("Cleveland", 50), rep("New York", 50))
+
+#Sample data
+data = data.frame(spending = spending,
+                  city = city)
+
+# export data to excel
+# rio::export(
+#   cbind(ClevelandSpending, NYSpending),
+#   file.path(getwd(), "lectures", "10", "independent_t.xlsx")
+# )
+```
+
+# F-test for 2 variances
+
+```{r}
+library(webr)
+library(moonBook)
+var.test(ClevelandSpending, NYSpending)
+
+# Alternatively 
+F_test = var.test(data$spending ~ data$city, data = data)
+plot(F_test)
+```
+
+# Two Sample t-test
+
+## Equal Variances
+
+```{r}
+# Null: the two samples' means are equal 
+# Ha: the sample
+t.test(ClevelandSpending, NYSpending, var.equal = TRUE)
+```
+
+Equivalently,
+
+```{r}
+t.test(spending ~ city, var.equal = TRUE)
+plot(t.test(spending ~ city, var.equal = TRUE))
+```
+
+## Unequal Variances
+
+what if we have different variance for the two variables
+
+```{r}
+t.test(ClevelandSpending, NYSpending, var.equal = FALSE)
+```
+
+Alternatively,
+
+```{r}
+t.test(spending ~ city, var.equal = FALSE)
+plot(t.test(spending ~ city, var.equal = FALSE))
+```
+
+## Visualization
+
+### Density Plot
+
+```{r}
+library(ggplot2)
+#Plot.
+ggplot(data, aes(x = spending, fill = city)) + geom_density(alpha = 0.5)
+```
+
+## Boxplot
+
+Plot weight by group and color by group
+
+```{r}
+library("ggpubr")
+ggboxplot(
+  data,
+  x = "city",
+  y = "spending",
+  color = "city",
+  palette = c("#00AFBB", "#E7B800"),
+  ylab = "Weight",
+  xlab = "Groups"
+)
+
+```

@@ -1,0 +1,208 @@
+---
+title: "Project Report Guidelines"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+Your report must be prepared in SlideDocs format (this format is covered during class). There are also sample reports on Canvas. Especially helpful will be the annotated SlideDocs research report available in Canva; it has many helpful tips
+
+Here is an outline for your report, followed by additional guidelines and some examples.
+
+# **OUTLINE OF REPORT CONTENT**
+
+## I. TITLE PAGE
+
+\- must contain the report title, the client's name, the names of group members, and the date
+
+<br>
+
+## II. TABLE OF CONTENTS
+
+The table of contents should have the following entries:
+
+-   Executive summary
+
+-   Background
+
+-   Objectives and research questions
+
+-   Methods
+
+-   Results
+
+-   Limitations
+
+-   Key findings and recommendations
+
+-   Appendix
+
+<br>
+
+## III. TABLE OF RESEARCH QUESTIONS
+
+This is a table of contents of the results section only. The entries are the headings you used for each research question followed by the page number where the results concerning the research questions are shown
+
+<br>
+
+## IV. EXECUTIVE SUMMARY
+
+A 2-3 page summary of the entire report
+
+<br>
+
+## V. BACKGROUND AND OBJECTIVES
+
+1.  Background of the projects; why study is being conducts, by whom and for whom; includes a brief summary of the client's problems. It [may]{.ul} be appropriate in this section to briefly describe the local market (competition and customers) as it relates to this business and this project.
+2.  Statement of overall project objectives
+3.  A list of specific research questions to be answered. These should follow from the discussion in (1). Present the research questions in topical or logical order and in the same order you plan to discuss them in the results section
+
+<br>
+
+## VI. METHODS USED TO OBTAIN INFORMATION
+
+1.  Development and description of questionnaire
+
+    -   describe how the questionnaire was developed and pretests that were conducted
+
+    -   provide an overview of the content of the questionnaire and major sections (1-2 paragraphs)
+
+    -   provide a physical description of the questionnaire (number of pages, paper color and size)
+
+2.  Data collection method and sampling plan (note that for purposes for the report, the sampling plan should be in prose from, not outline form); include an explanation for the rationale or the choice of sampling locations
+
+3.  Description of sample obtained - sample size, number of respondents surveyed at each locations (if more than one was used)
+
+**Note**: the methods should be described in the **past tense**
+
+<br>
+
+## VII. RESULTS
+
+You will need a separate section heading for each research question. For [**each**]{.ul} research question section:
+
+1.  Provide a short descriptive heading (5 words or less); do not use the words "Research Question" in your heading. Then in the text below:
+2.  State the complete research question
+3.  Identify questions in the questionnaire used to answer the research question
+4.  Describe your findings and the answer to the research question
+5.  Use a figure or table to completely describe the data that led to your conclusion - the figure/table should be on the same page or next page as your discussion of the answer to the research question; in most cases, it's easiest to prepare graphs using Excel
+6.  Do not use any pie charts in your results
+7.  On graphs and in the text, use percents instead of raw numbers (counts) to describe results whenever possible
+8.  If an analysis of a research question doesn't include everyone in the sample (e.g., you may have satisfaction ratings of a store only for those pole in your sample who actually visited the store), report the sample seize for the analysis
+9.  For differences research questions, indicate the number of respondents in each group
+
+Your report must include at least one analysis of a difference research question
+
+All research questions are answered in the Results section.
+
+**Do not** save any for your key findings section. The key findings section will revisit and elaborate the most important results that were originally presented in the results section.
+
+<br>
+
+## VIII. LIMITATIONS, KEY FINDINGS, AND RECOMMENDATIONS
+
+Provide a brief discussion of the major project ***limitations***. Other limitations should be mentioned as they arise in the earlier parts of the report. Limitations are not the same as problems; in this section, do not report all the difficulties you may have had during the course of the project (that will look unprofessional).
+
+Instead, limitations are the ways that your data are imperfect (perhaps you sample isn't perfectly representative, or a flaw on the questionnaire may have biased people's answer, etc.) or may involve the fact that your research doesn't completely address or solve some of the issues relevant to the research objective. These are the kinds of things to discuss in the limitation section
+
+Provide ***a summary and discussion of key findings***, particularly as the relate to the overall project objectives and the most important research questions. Discuss what the results mean for the client.
+
+FInally, include a list of ***recommendations***, if appropriate, for your client. The recommendation should be based on your research conclusions. A bullet format may be appropriate, as long as it also includes discussion of the rationale for each of your recommendations. The rationale should be linked to your research findings.
+
+<br>
+
+## IX. APPENDIX
+
+1.  A copy of the questionnaire (identical to the one actually used, including same color, exact layout); do not add "Appendix A" or some other heading to the questionnaire (use a separate page for this). DO not reduce the size of the questionnaire for the report
+2.  A research QUestion Summary. This summary is in the form of a table with two columns and is similar to Questionnaire Worksheet B. The first column lists the research questions (written out) in the order they're presented in the report. The second column shows the question number of the questionnaire question(s) used to answer each research question. Be sure the information in this summary is up-to-date and reflects changes you have made after Worksheet B was originally prepared
+3.  Details of coding for open-ended question
+4.  Time sampling grid if intercept surveys were conducted
+5.  Technical or very detailed material that you wish to report
+6.  Excel output for each research question, neatly labeled and organized and keyed to the corresponding research question in the results section. The output should be oriented so the reader doesn't have to rotate the page to read the output. the easiest way to accomplish this is to paste the relevant Excel output into your SlideDocs documents.
+
+Be sure to include all relevant output
+
+# Additional Guidelines
+
+***Font size*** for a Slidedocs report should be the same size as fonts in a traditional report (no larger than font size 13) except that headings may be larger
+
+Make sure all text is easy to read, including text in the copy of the questionnaire provided in the appendix and graph labels. Signification point deductions are made if text is too small to read.
+
+Do not right justify text; do not center text except in titles or headings
+
+Do not use the first person (I, we, etc.) Speak instead of the class, the group, the students, etc.
+
+Make sure all sections of the report are written in the proper tense (normally the past tense)
+
+Refer to the client as Mr. or Ms. and not solely by his or her first name.
+
+Bullet points may be appropriate for some sections of your report, but make sure that each bullet point contains a compete though not just a phase.
+
+There should be no technical material in the text of the report because the client frequently is not statistically sophisticated. However, sufficient technical material such as type of statistical test used (t-test), level of alpha, etc., need to be reported so that an outside observer can evaluate what you've done. The solution to this dilemma is to report the necessary technical material in footnotes at the bottom of the page
+
+Check grammar and spelling on your final draft.
+
+***Be neat and complete***! The report should look important and professional. The report's appearance will be evaluated in assigning the report grade.
+
+***Table and Graphs***
+
+These should be professional in appearance and in a format that clearly demonstrates your findings. The quality of tables and graphs is often taken by the reader as an indication of the quality of the report itself. It's not necessary to use color in the graphs if different patterns or shades of gray are used as needed
+
+Each graph should be titled (e.g., Comparison of Student Satisfaction across Class Levels) and should contain enough information that you could hand the graph by itself to another person and he/she would be able to interpret it
+
+Think carefully about the type of graph that will be communicate the results and allow readers to see the answer to the research question. DO not use any pie charts unless you have specific permission from the instructor.
+
+Bar and column charts must always have an origin of zero. If you don't know what this is or would like to request an exception, see the instructor
+
+Both x and y axes of all graphs should be labeled. In most cases, results should be presented in percentages rather than counts of respondents
+
+Don't paste Excel output into the results section of your report. Create a graph instead.
+
+# Examples for writing up results
+
+## Example for a Differences Analysis Research Question
+
+**Important Attributes for College Student and Business Customers**
+
+An important issue for JJ's Cafe was whether college student and business customers differ in what they consider most important when choosing a restaurant for lunch. the sixth question on the questionnaire was used to address this issue. This question asked respondents which of five attributes was most important to them when choosing a restaurant for lunch. Th The attributes were low price, efficient service, convenient location, a pleasant atmosphere, and menu variety.
+
+Analysis revealed important differences between the two groups [^1]. These are illustrated in the graph below. For college students, a low price was the most important attribute, while business customers placed the greatest emphasis on efficient service. Business customers were also more likely than to college students to say that a pleasant atmosphere was important. A convenient location was important to both groups.
+
+[^1]: $\chi^2 =13.12, df = 4, p< .05$ <br> note to students: you use the footnote format above when you reject the null hypothesis. If you did NOT reject the null hypothesis, your footnote would be in this format: $\chi^2 = 1.68, df = 4, n.s.$
+
+```{r, echo = FALSE, warning=FALSE}
+data = data.frame(Percent = c(c(30, 17, 20, 10, 23),
+                              c(15, 27, 22, 20, 16)), segment = c(rep("College", 5), rep("Business", 5)), Attribute = rep(c("Low \n price","Efficient \n service", "Convenient \n location", "Pleasant \n atmosphere","Menu \n variety"),2))
+# data
+
+# library
+library(ggplot2)
+
+ 
+# Grouped
+ggplot(data, aes(fill = segment, y = Percent, x = Attribute)) +
+  geom_col(width = 0.5, position=position_dodge(0.5)) + 
+  # geom_bar(position = "dodge", stat = "identity") + 
+  ggtitle("Important Restaurant Attributes for \n College Student and Business Customers")
+```
+
+<br>
+
+## Example for a Descriptive Research Question
+
+Awareness of JJ's Cafe
+
+An area of concern for JJ's Cafe was student awareness of the restaurant. three levels of awareness were assessed. Question two on the questionnaire asked respondents whether they had heard of JJ's Cafe, question three asked if they knew where it is located, and question four asked if they knew what kind of food was served at the cafe.
+
+Among the 100 college students surveyed, 47% had heard of JJ's Cafe. However, only 29% knew where it was located, and 34% knew what kind of food was served at the restaurant. These results are shown in the graph below.
+
+```{r, echo = FALSE}
+data = data.frame(Percent = c(47,29,34), Attribute = c("Heard of JJ's","Aware of location", "Aware of good served"))
+# data
+
+# Grouped
+ggplot(data, aes(y = Percent, x = Attribute)) +
+  geom_col(width = 0.5, position=position_dodge(0.5)) +
+  # geom_bar(position = "dodge", stat = "identity") +
+  ggtitle("Student Awareness of JJ's Cafe")
+```

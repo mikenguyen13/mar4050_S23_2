@@ -1,0 +1,117 @@
+---
+title: "Client"
+output:
+  pdf_document: default
+  html_notebook: default
+urlcolor: blue
+---
+
+**Nominating Client Sponsors**
+
+Selecting an appropriate client sponsor is critical to the success of your project. The sponsor you select will greatly influence the kind of experience you have with the project over the semester. With an appropriate sponsor, your project can be a rewarding and interesting experience. With the wrong sponsor, you may face difficulties at every stage of the project. Investing time now in selecting an appropriate client will pay big dividends for you.
+
+[Each group is responsible for identifying and conducting initial problem definition with two or three potential clients.]{.ul}
+
+Final client selection will be done in consultation with the instructor.
+
+[Client nominations: The following should be turned in at the beginning of class on the due date]{.ul}:
+
+(1) the names of 2 or 3 clients who are interested in working with your group
+
+(2) for each potential client sponsor include:
+
+-   the business name
+-   the name of your contact at the business and his/her email address and telephone numbers
+-   a brief description of the problem your project would address (e.g., assess potential demand for opening a new location of the client's frozen yogurt business on the west side of Columbia; determine whether vintage clothing or plus size clothing would be a better use of the upstairs space at the client's retail store, etc.)
+-   whether the client has agreed to meet in person with group members for 30-45 minutes within the next few days to discuss the project and its scope; if not, you will need to find another client
+-   a brief description of how you would collect data for the project survey and how you would reach those people to survey them
+
+(3) identify which client your group is most interested in working with
+
+**Guidelines for Choosing a Client**
+
+-   Contact several potential clients early - as soon as your group is formed. Contact them in person, definitely not by email and preferably not by telephone. In-person contact increases the chance that your client will be interested in sponsoring your project, and also gives you an opportunity to assess how well the client and his/her business problem fit the project requirements.
+
+-   Your client sponsor should be a local business or campus department (such as the MU Rec Center, the library, or Campus Dining Services) that needs **survey research** to help it solve a marketing problem (however, **do not choose a bar** for your client; also, your client cannot be located in the College of Business). Marketing problems suitable for a project often involve a decision the client is contemplating, for example:
+
+    -   determining whether there is sufficient customer interest to warrant adding an outside dining area to a restaurant
+
+    -   identifying which services and tanning packages would be most effective in attracting more student customers to a tanning salon
+
+    -   determining how to increase potential customers' awareness of a store or other business and identifying which promotions would be most likely to stimulate a visit to the store
+
+<br>
+
+-   Projects that don't involve a specific decision can also be successful if the results of the survey can help the client make important changes to its marketing program, for example:
+
+    -   identifying how the image of a retailer compares with its competitors and what its relative strengths and weaknesses are in the eyes of customers
+
+    -   assessing customer satisfaction with a business's merchandise and services and identifying improvements customers would like to see made to the business
+
+-   Think about how you'll eventually administer the survey. If you're obtaining information about prospective customers, where will you find them? If they're college students, the survey will be relatively easy to conduct. If the prospective customers are families who live on the south side of town, however, you may need to do an intercept survey by standing outside a place where there are lots of local residents, such as the shopping centers near Schnucks or Kohls. Columbia Mall will not let students survey in (or outside) the mall. If your client is a Columbia Mall tenant, however, you can probably survey inside your client's store as long as the client gives permission.
+
+-   Determine whether the proposed project for the client is feasible. Particular consideration is how difficult it will be to contact appropriate people to complete the survey. Most groups will need a sample size of over 150 to 200 qualified respondents, and you should be able to think of a reasonable way to gain the participation of these respondents. In most cases it is not feasible to conduct a telephone survey, and internet surveys are difficult to do because a contact list is needed and most people won't complete them. Most student projects involve intercepting potential respondents in a public place, such as a strip mall or on campus.
+
+-   The project should focus on ***either*** current customers or potential customers, but it's not feasible to include both in one project.
+
+-   The sponsoring client should have a genuine need for the research and not agree to work with you "just to be nice." With a genuine need, the sponsor will be more interested in your project and more responsive when you need feedback at various stages of your work.
+
+-   The sponsor should be enthusiastic about the project and willing to provide the information, assistance, and feedback your group needs in a timely manner. Someone who doesn't return phone calls or emails in a timely manner during the initial contact phase may not be an easy client to work with.
+
+-   The sponsor must be willing to meet in person with your group within a few days so you can complete PA \#3 on time
+
+-   The sponsor should be willing to pay for any necessary and reasonable expenses involved in collecting data for the study, including the cost of duplicating questionnaires and, if necessary, an incentive to reward people for participation (such as a piece of candy or other small token).
+
+-   The instructor has prepared a letter to sponsors that briefly describes the project and the sponsor's responsibilities. You can show this to potential clients to give them an idea of what's involved in the project. You MUST give a copy of the letter to the client sponsor you choose to work with. The letter is available on Canvas (sponsor_letter.pdf).
+
+<br>
+
+**Projects/Clients to Avoid**
+
+-   The client sponsor cannot be the employer of a group member and cannot be an organization that is owned or operated by a relative of a group member.
+
+-   The client must not be doing a project this semester with another Marketing 4050 group.
+
+-   You may not use a bar or nightclub for a client or do a project involving the sale of alcohol. Your client may not be located in the College of Business.
+
+-   Surveys for this project are normally administered in person. In some cases it might be possible to do an internet survey, but these can be very difficult to do and require special instructor permission.
+
+-   Avoid projects where you have to survey officers of a campus organization, because these people are hard to contact and often do not return surveys.
+
+-   Avoid projects where you have to survey business owners, managers, or employees; they are hard to reach.
+
+-   Avoid businesses located near campus or that heavily cater to students, unless the business is new. These businesses are often asked by students to participate in projects and usually want to help, but they are overused for projects and thus are less likely to have a meaningful issue to address in your survey.
+
+-   Avoid a project where the objective is to increase a restaurant's business on slow nights of the week. There really isn't much you can do to help with that problem. If you want to work with a restaurant, choose a more focused topic such as examining the attractiveness of some particular change the owner is contemplating or assessing customer satisfaction.
+
+-   Avoid a project in which the client's objective is "to attract more customers." Such a project will lack focus and be difficult to carry out. The project will be more effective if the client has a specific business change under consideration to attract more customers, in which case your project could focus on the likely effectiveness of the proposed change.
+
+-   The assigned reading on Canvas and the page titled "Some Project Guidelines" in the course packet provides additional useful hints for choosing a topic and dealing with a client. If you're having difficulty finding a client, you can contact the University Center for Innovation and Entrepreneurship in Lafferre Hall (Engineering Bldg.), Room W1026. The center may have some clients who need to have a marketing research study conducted.
+
+-   The sample project reports available on Canvas will give you an idea of the scope of the project and may help you decide whether a client you're considering is appropriate.
+
+<br>
+
+**Hints for topics while talking to clients**
+
+1\. What is the product/service being provided?
+
+2\. What is special 'unique about the product/service?
+
+3\. Does the client know who their competition is?
+
+4\. Is there a special group of people (such as college students) that the product/service is meant for? Are there different groups of people that the client thinks use their product/service?
+
+5\. Does the client think the different groups think of their product/service differently?
+
+6\. What information does the client hope to get from this project? Do they want this information?
+
+7\. What are the different things that the client wants to know? Prioritize these questions.
+
+8\. What decisions will the client make using the information above? There should be several alternatives that you should get from the client for this decision- e.g., where to advertise their product is the decision that will be aided by your project. The decision alternatives would be advertising in Add Sheet, Columbia Tribune, Missourian, Radio, Television etc.
+
+9\. Is the information asked for in item 6 above the best information to make decision in item 8?
+
+10 Create a sample data set (with made up data) and ask the client if this is what they had in mind. This should be done in the second meeting.
+
+<br>

@@ -1,0 +1,273 @@
+---
+title: "Case Discussion"
+output:
+  pdf_document: default
+  html_notebook: default
+urlcolor: blue
+editor_options:
+  markdown:
+    wrap: 72
+---
+
+Case Discussion Instruction:
+
+For each case discussion, please post the following on Canvas:
+
+| Post                                                   | Minimum \# of words | Points |
+|--------------------------------------------------------|---------------------|--------|
+| Your answers/solution to the case questions            | 100 words           | 10     |
+| How is it related to the textbook chapters?            | 50 words            | 5      |
+| Questions for the professor or the class               | optional            |        |
+| Your replies to at least **two** other students' posts | 50 words per post   | 5      |
+
+Note: 
+
+Please separate your answers/ solutions and how you relate the textbook
+chapter materials into two separate paragraphs so viewers can easily
+identify them.
+
+Even though questions for the professor or the class are optional, I
+still strongly encourage you to do it because it can stimulate
+discussions and allow people to reply to your post.
+
+Please put thoughts, consideration, and substance into your replies.
+Replies without any substance will be graded as 0. Examples include, but
+are not limited to:
+
+-   thank you
+
+-   good jobs
+
+-   I like your thoughts
+
+-   I think it's a great idea.
+
+Basically, give time and real thoughts to your peer's post, and you will
+receive points.
+
+<br>
+
+# DISCUSSION CASE #1 A Bigger Bookshop?
+
+A used book dealer with a small store in downtown Columbia is
+considering expanding. The shop occupies a small and crowded storefront
+space at the street level. The book dealer wonders whether he should
+expand to the second floor by adding a staircase and additional selling
+space upstairs.
+
+I.  What is the overall management problem?
+
+II. What are the major decisions this book dealer needs to make?
+
+III. What information does the book dealer need to make these decisions?
+
+IV. If you were conducting a survey to help this book dealer make these
+    decisions, what research objectives should you have for the survey?
+
+<br>
+
+# DISCUSSION CASE #2 Mario's Macaroni
+
+A chain of 43 Italian restaurants in the Midwest has experienced a
+gradual sales decline, starting about a year ago. You have been asked to
+determine the cause of the decline. Explain how you could use each of
+the following methods to figure out what's going on.
+
+Prepare an answer for the method associated with the first letter of
+your last name. You will need to obtain information about your assigned
+method from your textbook (primarily chapters 4 and 6).
+
+• secondary data analysis (A-C)
+
+• experience survey (D-G)
+
+• focus group (H --- L)
+
+• in-depth interview (M --- O)
+
+• projective techniques (P --- R)
+
+• Observation (S, T)
+
+• experiment (U - Z)
+
+<br>
+
+# DISCUSSION CASE #3
+
+Here are the [Case 3
+materials](https://github.com/mikenguyen13/mar4050_F21/raw/master/case_discussion/Materials%20related%20to%20Case3.docx)
+needed to answer the case.
+
+A. For each research question below, indicate the research question form
+(descriptive, differences, or association research question).
+
+B. In addition,
+
+1)  For each descriptive RQ below, describe the variable to be measured.
+
+2)  For each difference RQ below, describe both the grouping variable
+    and the analysis variable.
+
+3)  For each association RQ below, describe the two variables to be
+    associated.
+
+<br>
+
+RQ1: How often do Columbia residents buy floral items (potted plants,
+bouquets, arrangements, etc.)?
+
+RQ2: Is household income associated with the frequency of buying floral
+items?
+
+RQ3: Do married people buy more floral items than single people?
+
+RQ4: Are Columbia residents more likely to buy their floral items at a
+supermarket or at a florist shop?
+
+RQ5: What percentage of Columbia residents have a favorite florist?
+
+RQ6: What percentage of Columbia residents have purchased floral items
+via the internet?
+
+RQ7: Are men or women more likely to purchase floral items via the
+internet?
+
+RQ8: What is the average price residents pay for floral items?
+
+RQ9: For what sorts of occasions are they most likely to buy floral
+items?
+
+RQ1O: Is age related to how often a person purchases floral items?
+
+<br>
+
+# DISCUSSION CASE #4 The Red Lion
+
+The Red Lion, Ltd., is a chain of 13 bar restaurants located in seven
+major cities on the east coast. The original Red Lion was opened in 2003
+by Albert Campion, an English expatriate. The chain is modeled after the
+typical English pub. Much of the equipment and furnishings have been
+collected from actual pubs throughout the British Isles. The Red Lion
+sells typical English dishes such as fish and chips and kidney pie, as
+well as a variety of sandwiches and a selection of American and English
+beers. In addition, Mr. Campion claims to have the largest collection of
+Scotch whiskeys outside of the British Isles.
+
+Mr. Campion feels that "the key to the successful operation of a pub is
+the maintenance of a friendly, intimate ambiance." He would like to
+personally oversee the operation of each pub, but that has become
+impossible as the chain has grown. Because of this, Mr. Campion has
+invested in hiring top quality managers, most of whom are from England.
+Despite the care Mr. Campion has taken, he still feels that he needs
+some mechanism to ensure that the food and service are of consistently
+high quality. To this end, Mr. Campion is considering four alternative
+forms of marketing research:
+
+A.  A short questionnaire is placed on each table. Customers who have
+    criticism, praise, or suggestions are asked to complete the form and
+    give it to their server.
+
+B.  A trained interviewer visits each pub on an unannounced basis.
+    Selected customers are interviewed as they are leaving the pub.
+
+C.  Mr. Campion contracts a customer experience firm. At the bottom of
+    each customer's receipt is the link to an online survey customers
+    can complete and receive a discount on their next visit to the pub.
+
+D.  None of the above. Instead, rely on posts to sites like Yelp and
+    Facebook to assess customer satisfaction
+
+Discuss the merits of these alternatives and indicate which, if any, you
+would recommend to Mr. Campion.
+
+<br>
+
+# DISCUSSION CASE #5 Grand Seaside Resort
+
+When the Grand Seaside Resort was built seven years ago, it was the most
+upscale and elegant resort hotel in Pensacola, Florida. Two years ago, a
+new resort opened nearby, and occupancy rates at the Grand Seaside began
+to decline. Rachel Griggs, Director of Customer Relations, analyzed
+hotel records and discovered that in the last two years the number of
+repeat customers was down. To increase repeat business, she decided to
+implement a customer satisfaction assessment program. Upon checkout, all
+customers would be asked to complete a short survey about their stay at
+the hotel. Below are three different questions that could be used to
+assess customer satisfaction. Which one should Rachel Griggs use? Be
+prepared to discuss the advantages and disadvantages of each of the
+options. Moreover, the manager also wants to know the level of
+measurement (i.e., nominal, ordinal, interval, and ratio) for each
+option. For the level of measurement, please read textbook Chapter 12.
+
+Option 1:
+
+Please think of all the things you are satisfied with and all the things
+you are dissatisfied with about your stay at the Grand Seaside Resort.
+Where would you rate yourself on the scale below?
+
+Completely satisfied About half satisfied Not at all satisfied
+
+100% 90% 80% 70% 60% 50% 40% 30% 20% 10% 0%
+
+<br>
+
+Option 2: Please answer the following questions based on your most
+recent stay at the Grand Seaside. Circle the answer that describes your
+experience at the hotel.
+
+Was the room clean? Yes/ No
+
+Was the room comfortable? Yes/No
+
+Was the staff courteous? Yes/No
+
+Was room service satisfactory? Yes/No
+
+Was the parking adequate? Yes/No
+
+Option 3:
+
+If you had \$100 to give as a bonus to the people who served you during
+your recent stay at the Grand Seaside, how would you distribute the
+bonus? You can give as much or as little to each person or department,
+as long as the total for the column sums to \$100
+
+| Department         | Amount |
+|--------------------|--------|
+| Front desk staff   |        |
+| Room service staff |        |
+| Housekeeping staff |        |
+| Bellhop            |        |
+| Concierge          |        |
+| Reservations staff |        |
+| Restaurant staff   |        |
+| Other              |        |
+| Total              | \$100  |
+
+<br>
+
+# DISCUSSION CASE #6 --- Mediacom
+
+Mediacom is in the process of changing its package and pricing structure
+for cable TV and internet services. It has developed four media packages
+and wants to assess the relative attractiveness of these four packages
+in a representative sample of customers and potential customers in
+Columbia, MO. Their researcher is considering the following sampling
+procedures.
+
+1.  Include a survey with the monthly billing statement, along with a
+    pre-paid postage reply envelope.
+
+2.  Do a mall intercept survey at Columbia Mall and survey 500 actual or
+    potential Mediacom customers.
+
+3.  Conduct an internet survey. Respondents would be paid \$2 for
+    completing a survey and would be recruited through banner ads on
+    local newspapers, television, and radio websites.
+
+Discuss how representative of the target population each of these
+approaches would be. Also, suggest a better option for collecting the
+data.
+
+<br>
