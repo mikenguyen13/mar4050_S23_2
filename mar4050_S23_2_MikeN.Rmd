@@ -171,11 +171,9 @@ Extra Credit: 3-5%
 
 -   Participation in case discussions will be counted each time a student raises their hand and answers a question.
 
--   To receive full credit for participation (50 points) in a semester, a student must participate at least **3 times**.
+-   To receive full credit for participation (50 points) in a semester, a student must participate at least **2 times**.
 
--   Each missing participation will result in **a deduction of 20 points** from the total participation grade.
-
--   For example, if a student only participates once in a semester, they will receive 10 points for participation for the semester.
+-   Each missing participation will result in **a deduction of 25 points** from the total participation grade.
 
 -   In order to receive full credit for participation, students must prepare thoughtful answers to case discussions by reading the assigned material beforehand. Responses without substance or thought will not be counted as participation. To ensure that you receive full credit for participation, it is important to come to class prepared with considered and substantive responses.
 
