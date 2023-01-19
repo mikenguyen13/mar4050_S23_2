@@ -17,7 +17,7 @@ CS: Python
 
 
 ```{r, eval=FALSE}
-html = "https://umsystem.instructure.com/api/v1/courses/53757/discussion_topics/983175/view?include_new_entries=1&include_enrollment_state=1"
+html = "https://umsystem.instructure.com/api/v1/courses/144266/discussion_topics/1493389/view?include_new_entries=1&include_enrollment_state=1"
 ```
 
 Step 1: Import libraries
@@ -33,8 +33,6 @@ library("RColorBrewer")
 Step 2: Import and clean data
 
 ```{r, message=FALSE}
-
-
 data = jsonlite::fromJSON(file.path(getwd(), "view.json"))
 
 # data = rio::import(file.path(getwd(),"discussion-report-all_data.csv"))
